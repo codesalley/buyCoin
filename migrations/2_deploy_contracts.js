@@ -1,5 +1,5 @@
-var SimpleStorage = artifacts.require("./SimpleStorage.sol");
+var SalleyCoin = artifacts.require('./SalleyCoin.sol');
 
-module.exports = function(deployer) {
-  deployer.deploy(SimpleStorage);
+module.exports = function (deployer) {
+	deployer.deploy(SalleyCoin, 10000);
 };
